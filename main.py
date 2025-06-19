@@ -340,7 +340,7 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"┏━━━━━━━━━━━ 🚀 ━━━━━━━━━━━┓\n"
-        f"     𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃\n"
+        f"    ♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎\n"
         f"┗━━━━━━━━━━━ 🚀 ━━━━━━━━━━━┛\n\n"
         
         f"🔹 𝗠𝗔𝗜𝗡 𝗙𝗘𝗔𝗧𝗨𝗥𝗘𝗦 🔹\n"
@@ -500,9 +500,9 @@ async def txt_handler(bot: Client, m: Message):
     raw_text5 = input5.text 
     await input5.delete(True)  
     if raw_text5.strip() == "/d":
-        app = "𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃"
+        app = "♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎"
     else:
-        app = raw_text5.strip() or "𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃"
+        app = raw_text5.strip() or "♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎"
 
     await editable.edit(f"**🔹Send the Video Thumb URL\n🔹Send /d for use default\n\n🔹You can direct upload thumb\n🔹Send **No** for use default**")
     input6 = message = await bot.listen(editable.chat.id)
@@ -789,7 +789,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/VeerJaatOffline)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎](https://t.me/♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
