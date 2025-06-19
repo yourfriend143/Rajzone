@@ -1,4 +1,4 @@
-import os
+huimport os
 import re
 import sys
 import m3u8
@@ -84,12 +84,12 @@ async def show_random_emojis(message):
     return emoji_message
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/VeerJaatOffline")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Your_boyfriend_Shivansh")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/VeerJaatOffline"),
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/VeerJaatOffline"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Your_boyfriend_Shivansh"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Your_boyfriend_Shivansh"),
         ],
     ]
 )
@@ -1161,7 +1161,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'encrypted.m' in url:    
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/VeerJaatOffline)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [Your_boyfriend_Shivansh](https://t.me/Your_boyfriend_Shivansh)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -1173,7 +1173,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'drmcdni' in url or 'drm/wv' in url:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/VeerJaatOffline)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [Your_boyfriend_Shivansh](https://t.me/Your_boyfriend_Shivansh)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -1185,7 +1185,7 @@ async def text_handler(bot: Client, m: Message):
                 else:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃)"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [Your_boyfriend_Shivansh](https://t.me/Your_boyfriend_Shivansh)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
