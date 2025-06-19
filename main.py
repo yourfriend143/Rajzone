@@ -480,7 +480,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/VeerJaatOffline)'
+        CR = '[𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/Your_boyfriend_Shivansh)'
     else:
         CR = raw_text3
 
