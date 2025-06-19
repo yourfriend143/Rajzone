@@ -364,7 +364,7 @@ async def txt_handler(client: Client, m: Message):
         f"📚 Supports batch processing\n\n"
         
         f"┏━━━━━━━━━━━━━━━━━━━━━━━┓\n"
-        f"             🧠 𝐌𝐚𝐝𝐞 𝐁𝐲: [U𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/VeerJaatOffline)\n"
+        f"             🧠 𝐌𝐚𝐝𝐞 𝐁𝐲: [♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎](https://t.me/Your_boyfriend_Shivansh)\n"
         f"┗━━━━━━━━━━━━━━━━━━━━━━━┛"
         )
     )
@@ -480,7 +480,7 @@ async def txt_handler(bot: Client, m: Message):
     raw_text3 = input3.text
     await input3.delete(True)
     if raw_text3 == '1':
-        CR = '[𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/Your_boyfriend_Shivansh)'
+        CR = '[♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎](https://t.me/Your_boyfriend_Shivansh)'
     else:
         CR = raw_text3
 
@@ -818,7 +818,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/VeerJaatOffline)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎](https://t.me/Your_boyfriend_Shivansh)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -847,7 +847,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [U𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃👒 ᴠͥɪͣᴘͫ✮⃝𝚅𝚎𝚎𝚛 👒𝄃𝄃𝄂𝄂𝄀𝄁𝄃𝄂𝄂𝄃](https://t.me/VeerJaatOffline)"
+                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ [♥︎‿♥︎𝐒𝐡𝐢𝐯𝐚𝐧𝐬𝐡♥︎‿♥︎](https://t.me/Your_boyfriend_Shivansh)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
